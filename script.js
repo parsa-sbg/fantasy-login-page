@@ -59,3 +59,17 @@ passInput.addEventListener('focus', () => {
 passInput.addEventListener('blur', () => {
     resetEyeLocations()
 })
+
+
+// responsive for mobile device 
+let details = navigator.userAgent; 
+  
+let regexp = /android|iphone|kindle|ipad/i; 
+  
+let isMobileDevice = regexp.test(details); 
+  
+if (isMobileDevice) { 
+    document.querySelector('.content').style.zoom = '2.5'
+} else { 
+    console.log("You are using Desktop"); 
+}

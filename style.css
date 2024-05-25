@@ -12,6 +12,7 @@ body {
 	height:370px;
 	padding: 10px;
 	max-width: 100vh;
+	zoom: 1.2;
 }
 
 
@@ -91,20 +92,9 @@ input#sub:hover{
 	text-align:center;
 }
 
-/* responsive */
+@media screen and (max-width: 576px) {
+	.content{
+		zoom: .8;
+	}
 
-@media screen and (max-width: 992px) {
-	.content{
-		zoom: 1.5;
-	}
 }
-/* @media screen and (max-width: 600px) {
-	.content{
-		zoom: 2;
-	}
-}
-@media screen and (max-width: 400px) {
-	.content{
-		zoom: 1.6;
-	}
-} */
