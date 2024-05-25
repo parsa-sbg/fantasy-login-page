@@ -11,6 +11,7 @@ body {
 	width:300px;
 	height:370px;
 	padding: 10px;
+	max-width: 100vh;
 }
 
 
@@ -51,15 +52,17 @@ input#sub:hover{
 }
 .righteye{
 	width: 25px;
-    left: 174px;
+    left: 173px;
     position: absolute;
     top: 75px;
+	transition: all 100ms ease;
 }
 .lefteye{
 	width: 25px;
     left: 110px;
     position: absolute;
     top: 75px;
+	transition: all 100ms ease;
 }
 .bob{
 	width:150px;
@@ -87,3 +90,21 @@ input#sub:hover{
 .f1 {
 	text-align:center;
 }
+
+/* responsive */
+
+@media screen and (max-width: 992px) {
+	.content{
+		zoom: 1.5;
+	}
+}
+/* @media screen and (max-width: 600px) {
+	.content{
+		zoom: 2;
+	}
+}
+@media screen and (max-width: 400px) {
+	.content{
+		zoom: 1.6;
+	}
+} */
