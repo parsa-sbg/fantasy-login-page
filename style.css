@@ -1,0 +1,89 @@
+body {
+	background-color:white;
+	background-position:fixed;
+	line-height:25px;
+	
+}
+
+.content {
+	background-color:#fbf468;
+	border-radius:25px;
+	width:300px;
+	height:370px;
+	padding: 10px;
+}
+
+
+input {
+	font-family: tahoma;
+	font-size:10px;
+    color: #070707;
+	height:30px;
+	padding:0 10px;
+	width:200px;
+	margin:5px 10px;
+	border: #b4b349 solid 1px;
+	background-color:transparent;
+	float:center;
+	outline:0;
+	border-radius:5px;
+	
+}
+input:focus {
+	border: #949331 solid 1px;
+}
+.belt {
+	width:220px;
+	margin-bottom: -5px;
+    margin-left: 4px;
+}
+input#sub{	
+	border: #4865f2 solid 1;	
+	background-color:#4865f2;
+	color:white;
+		font-size:15px;
+
+}
+input#sub:hover{	
+	border: #18568a solid 1px;	
+	background-color:#18568a;
+	color:white;
+}
+.righteye{
+	width: 25px;
+    left: 174px;
+    position: absolute;
+    top: 75px;
+}
+.lefteye{
+	width: 25px;
+    left: 110px;
+    position: absolute;
+    top: 75px;
+}
+.bob{
+	width:150px;
+	height:auto;
+	padding-top: 20px;
+    padding-left: 70px;	
+}
+
+.center {
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.cir11 {
+	position: absolute;
+	padding:5px;
+	border:1px;
+	border-color:black;
+	border-style: solid;
+    border-radius: 90%;
+}
+.f1 {
+	text-align:center;
+}
